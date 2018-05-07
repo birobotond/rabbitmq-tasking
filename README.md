@@ -1,1 +1,50 @@
 # rabbitmq-tasking
+
+Some used commands
+
+- python -v
+- python --version
+- apt-get update
+- apt-get upgrade
+- apt-get intall apt-get install rabbitmq-server
+- apt-get install rabbitmq-server
+- systemctl status rabbitmq-server.service 
+- apt-get install python
+- python~
+- python3
+- apt-get upgrade python3
+- apt-get install python-pip
+- apt-get install python3-pip
+- pip3 install celery
+- mcedit /etc/apt/sources.list
+- ls /opt/
+- systemctl enable 
+- systemctl enable vboxservice
+- apt-get install rabbitmqctl
+- rabbitmqctl 
+- rabbitmqctl list_exchanges
+- pip install pika
+- pip3 install pika
+- rabbitmq-plugins enable rabbitmq_management
+- rabbitmqadmin get queue=products requeue=false
+- rabbitmqadmin get queue=product requeue=false
+- rabbitmqadmin get queue=autoteile requeue=false
+- python3 --version
+- rabbitmqctl list_bindings
+- apt-get install rabbitmqadmin
+- apt-get source rabbitmqadmin
+- rabbitmqadmin get queue=offers requeue=false
+- rabbitmqctl list_vhosts -q | xargs -n1 | sort -u
+- cp /home/botond/tools/rabbitmqadmin /etc/bash_completion.d/
+- sh -c 'rabbitmqadmin --bash-completion > /etc/bash_completion.d/rabbitmqadmin'
+- rabbitmqadmin -V test list exchanges
+- rabbitmqadmin -V  list exchanges
+- rabbitmqctl list_connections
+- rabbitmqctl list_queues -p localhost
+- rabbitmqctl list_queues
+- systemctl restart rabbitmq-server.service 
+- systemctl restart rabbitmq-server
+- rabbitmqadmin list exchanges
+- rabbitmqadmin -f long -d 3 list queues
+- pip3 install -U Celery
+- pip3 install kombu
